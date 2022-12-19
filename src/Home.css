@@ -1,8 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap');
-
 @media(min-width: 280px) {
   .home {
     background-image: none;
+    margin: 2em 4em;
   }
 
   .lines {
@@ -67,13 +66,6 @@
   .value-img {
     max-width: 8em;
   }
-}
-
-.App {
-  margin: 0 2em;
-  display: flex;
-  flex-direction: column;
-  color: rgb(55, 53, 53);
 }
 
 .heading {

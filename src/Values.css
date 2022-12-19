@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap');
+
 @media (min-width: 280px) {
     .value-page-container {
-        margin: 0;
+        margin: 1em;
+    }
+
+    .screenshots {
+        width: 60vw;
     }
 }
 
@@ -8,8 +14,13 @@
     text-align: center;
 }
 
+.value-page-heading {
+    font-family: 'Oswald', sans-serif;
+}
+
 .value-page-text {
     text-align: left;
+    line-height: 1.6;
 }
 
 .project-link {
@@ -18,8 +29,7 @@
 }
 
 figure {
-    margin: 3em;
-    
+    margin: 3em;    
 }
 
 figcaption {
@@ -27,7 +37,6 @@ figcaption {
 }
 
 .screenshots {
-    width: 40vw;
     border: 1px solid black;
     border-radius: 3px;
 }
@@ -35,6 +44,9 @@ figcaption {
 @media (min-width: 968px) {
     .value-page-container {
         margin: 0 10em;
+    }
+    .screenshots {
+        width: 40vw;
     }
 }
 

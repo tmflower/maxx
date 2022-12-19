@@ -1,6 +1,60 @@
- .App {
-  margin: 0 2em;
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap');
+ 
+.App {
   display: flex;
   flex-direction: column;
   color: rgb(55, 53, 53);
+}
+
+.greeting {
+  margin: 10em 5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+}
+
+.tiny-head {
+  width: 1.5em;
+}
+
+.btn {
+  padding: .5em;
+  background-color: white;
+  color: #0f7cbb;
+  font-family: 'Oswald', sans-serif;
+  border: 1px solid #0f7cbb;;
+  border-radius: 5px;
+  font-size: 1em;
+  width: 40%;
+}
+
+.btn:hover {
+  background-color: #0f7cbb;
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgb(55, 53, 53);  
+}
+
+.navbar-link {
+  text-decoration: none;
+  padding: 1em 0;
+  font-family: 'Oswald', sans-serif;
+  color: white;
+}
+
+.navbar-link:hover {
+  transform: scale(1.5, 1.5);
+}
+
+@media(min-width: 968px) {
+  .greeting {
+    font-size: 1.5em;
+  }
 }
