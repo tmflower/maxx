@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400&display=swap');
+
+@media(min-width: 280px) {
+  .home {
+    background-image: none;
+  }
+
+  .lines {
+    margin-top: 1em;
+    margin-bottom: -3em;
+    max-width: 80%;
+  }
+
+  .value {
+    font-size: 1.3em;
+  }
+
+  .value-text {
+    font-size: .7em;
+  }
+
+  .value-img {
+    margin-bottom: 1.5em;
+    margin-top: 1.5em;
+    max-width: 5em;
+  }
+}
+
+@media(min-width: 960px) {
+  .home {
+    background-image: url(./maxx-lines.png);
+    background-repeat: no-repeat;
+    background-position: 0% 86%;
+    background-size: 90% 30%;
+  }
+
+  .lines {
+    display: none;
+  }
+
+  .value {
+    font-size: 1.6em;
+  }
+
+  .value-text {
+    font-size: .8em;
+  }
+
+  .value-img {
+    max-width: 6em;
+  }
+}
+
+@media (min-width: 1334px) {
+  .home {
+    background-position: 0% 90%;
+  }
+
+  .value {
+    font-size: 1.9em;
+  }
+
+  .value-text {
+    font-size: .9em;
+  }
+
+  .value-img {
+    max-width: 8em;
+  }
+}
+
+.App {
+  margin: 0 2em;
+  display: flex;
+  flex-direction: column;
+  color: rgb(55, 53, 53);
+}
+
+.heading {
+  text-align: left;
+  font-family:'Times New Roman', Times, serif;
+  font-size: 8vw;
+  margin: 0;
+}
+
+.subheading {
+  text-align: left;
+  font-size: 3.3vw;
+  margin: 0;
+}
+
+.values {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.value {
+  margin: 1em 1em;
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+  flex: 1;
+}
+
+.value-img:hover {
+    transform: rotate(15deg);
+}
+
+.value-text {
+  max-width: 10em;
+  font-family: 'Times New Roman', Times, serif;
+  margin: auto;
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content:space-between;
+  align-items: flex-end;
+}
+
+.logo {
+  max-height: 3em;
+}
+
+.copyright {
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 0px;
+}

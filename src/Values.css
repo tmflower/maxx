@@ -1,0 +1,40 @@
+@media (min-width: 280px) {
+    .value-page-container {
+        margin: 0;
+    }
+}
+
+.value-page {
+    text-align: center;
+}
+
+.value-page-text {
+    text-align: left;
+}
+
+.project-link {
+    display: block;
+    margin: 1em 0;
+}
+
+figure {
+    margin: 3em;
+    
+}
+
+figcaption {
+    font-style: italic;
+}
+
+.screenshots {
+    width: 40vw;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+
+@media (min-width: 968px) {
+    .value-page-container {
+        margin: 0 10em;
+    }
+}
+
