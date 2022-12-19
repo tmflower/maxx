@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/maxx/static/css/main.cead2f15.css",
+    "main.js": "/maxx/static/js/main.dcdf07f8.js",
+    "static/js/787.63a39af9.chunk.js": "/maxx/static/js/787.63a39af9.chunk.js",
+    "static/media/my-homepage.png": "/maxx/static/media/my-homepage.62316f25ba2c4a5cc20d.png",
+    "static/media/maxx-values.png": "/maxx/static/media/maxx-values.2392137edbf032f79e2e.png",
+    "static/media/maxx-lines.png": "/maxx/static/media/maxx-lines.62e02c3920fb6b288247.png",
+    "static/media/head3.png": "/maxx/static/media/head3.b6ee6f3825ce21839fb9.png",
+    "static/media/head2.png": "/maxx/static/media/head2.a48e840077a21223b8d4.png",
+    "static/media/head4.png": "/maxx/static/media/head4.53b9909fc2ee0398a30f.png",
+    "static/media/head1.png": "/maxx/static/media/head1.76c5ea93a09a7aa4c0c1.png",
+    "static/media/head5.png": "/maxx/static/media/head5.6b79aa29f8aad0f62fbd.png",
+    "index.html": "/maxx/index.html",
+    "main.cead2f15.css.map": "/maxx/static/css/main.cead2f15.css.map",
+    "main.dcdf07f8.js.map": "/maxx/static/js/main.dcdf07f8.js.map",
+    "787.63a39af9.chunk.js.map": "/maxx/static/js/787.63a39af9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cead2f15.css",
+    "static/js/main.dcdf07f8.js"
+  ]
+}
