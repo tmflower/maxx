@@ -28,7 +28,7 @@ export function Authenticity() {
                 </figure> 
                 <hr />                   
                 <p>See the live site and code for this project:</p>
-                <a className="project-link" href="" target="_blank" rel="noreferrer">Maxx Github</a>
+                <a className="project-link" href="https://github.com/tmflower/maxx" target="_blank" rel="noreferrer">Maxx Github</a>
             </div>
         </div>
     )
