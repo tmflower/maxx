@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/maxx/static/css/main.cead2f15.css",
-    "main.js": "/maxx/static/js/main.770750c6.js",
+    "main.js": "/maxx/static/js/main.0913cd3d.js",
     "static/js/787.63a39af9.chunk.js": "/maxx/static/js/787.63a39af9.chunk.js",
     "static/media/my-homepage.png": "/maxx/static/media/my-homepage.62316f25ba2c4a5cc20d.png",
     "static/media/maxx-values.png": "/maxx/static/media/maxx-values.2392137edbf032f79e2e.png",
@@ -13,11 +13,11 @@
     "static/media/head5.png": "/maxx/static/media/head5.6b79aa29f8aad0f62fbd.png",
     "index.html": "/maxx/index.html",
     "main.cead2f15.css.map": "/maxx/static/css/main.cead2f15.css.map",
-    "main.770750c6.js.map": "/maxx/static/js/main.770750c6.js.map",
+    "main.0913cd3d.js.map": "/maxx/static/js/main.0913cd3d.js.map",
     "787.63a39af9.chunk.js.map": "/maxx/static/js/787.63a39af9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.cead2f15.css",
-    "static/js/main.770750c6.js"
+    "static/js/main.0913cd3d.js"
   ]
 }
