@@ -9,7 +9,7 @@ import { Perseverance } from './Perseverance';
 export function Navbar() {
     return (
         <nav className='navbar'>
-            <NavLink className="navbar-link" to="/" element={<Home />}>Home</NavLink>
+            <NavLink className="navbar-link" to="/maxx/" element={<Home />}>Home</NavLink>
             <NavLink className="navbar-link" to="/perseverance" element={<Perseverance />}>Perseverace</NavLink>
             <NavLink className="navbar-link" to="/curiosity" element={<Curiosity />}>Curiosity</NavLink>
             <NavLink className="navbar-link" to="/collaboration" element={<Collaboration />}>Collaboration</NavLink>
