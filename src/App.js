@@ -27,8 +27,8 @@ function App() {
       <div className="greeting">
         <h1>Hello!</h1>
         <p>Thanks for visiting!</p>
-        <p>Please click on each face image <img className="tiny-head" src={head1} alt="head"/>on the next page to reveal an example of how I demonstrate Maxx Potential's core values.</p>
-        <button className='btn' onClick={handleClick}>Let's go!</button>
+        <p>Please click on each face image on the next page to reveal an example of how I demonstrate Maxx Potential's core values.</p>
+        <button className='btn' onClick={handleClick}><img className="tiny-head" src={head1} alt="head"/>Click me!</button>
       </div> 
       : 
       <div>

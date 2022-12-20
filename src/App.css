@@ -17,9 +17,13 @@
 
 .tiny-head {
   width: 1.5em;
+  margin-right: .5em;
 }
 
 .btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
   padding: .5em;
   background-color: white;
   color: #0f7cbb;
