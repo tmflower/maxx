@@ -22,7 +22,7 @@ function App() {
 
   return (   
     <div className="App">
-      { location.pathname === "/" ? null : <Navbar /> }
+      { location.pathname === "/maxx/" ? null : <Navbar /> }
       { !wasClicked ?  
       <div className="greeting">
         <h1>Hello!</h1>
